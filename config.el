@@ -171,3 +171,6 @@
   (pinentry-start))
 
 (setq magit-diff-refine-hunk (quote all))
+
+(after! org-roam
+  (setq org-roam-directory (file-truename "~/org-roam/")))
